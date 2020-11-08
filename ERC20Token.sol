@@ -2,8 +2,8 @@ pragma solidity ^0.4.2;
 
 contract ERC20Token {
     
-    string  public name = "VideoWiki Token";
-    string  public symbol = "WIKICOIN";
+    string  public name = "ABC";
+    string  public symbol = "ABC";
     //string  public standard = "VideoWiki Token v1.0";
     uint256 public totalSupply;
 
@@ -31,8 +31,8 @@ contract ERC20Token {
 
     //for initializing the totalSupply and balanceOf amounts.
     constructor () public {
-        balanceOf[msg.sender] = 100000;
-        totalSupply = 100000;
+        balanceOf[msg.sender] = 10000;
+        totalSupply = 10000;
     }
 
     //Transfers _value amount of tokens to address _to.
