@@ -4,7 +4,7 @@ contract ERC20Token {
     
     string  public name = "ABC";
     string  public symbol = "ABC";
-    //string  public standard = "VideoWiki Token v1.0";
+    //string  public standard = "";
     uint256 public totalSupply;
 
     //triggers when tokens are transferred, including zero value transfers. 
